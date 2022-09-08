@@ -13,11 +13,27 @@ interface IProjectProps {
 
 const Project = ({project} : IProjectProps) => {
 
+    const openProjectRepo = () => {
+        const link = document.createElement('a');
+        link.href = project.link;
+        link.target = "_blank";
+        link.rel = "noreferrer";
+
+        link.click();
+    }
+
     return (
         <Paper
             className={styles.project}
+            onClick={openProjectRepo}
         >
-            <Stack>
+            <Stack
+                sx={
+                    {
+                        minHeight: "100%"
+                    }
+                }
+            >
                 <div
                     id="projectImage"
                 >

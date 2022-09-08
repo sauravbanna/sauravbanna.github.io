@@ -23,6 +23,9 @@ const AppTheme = createTheme({
                     paddingRight: "1em",
                     '&:hover': {
                         boxShadow: "0.2em 0.2em rgba(0, 0, 0, 0.3)"
+                    },
+                    '&:active': {
+                        boxShadow: "inset 0.2em 0.2em rgba(0, 0, 0, 0.3)"
                     }
                 }
             }

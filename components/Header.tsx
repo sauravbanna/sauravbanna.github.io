@@ -16,9 +16,11 @@ const Header = () => {
         }
     }
 
+
     return (
         <div
             className={styles.header}
+            id="header"
         >
             <div
                 id="header_image"
@@ -47,12 +49,14 @@ const Header = () => {
                     </Typography>
                     &nbsp;
                     <div>
-                        <Button onClick={scrollToContacts}>
+                        <Button disableRipple onClick={scrollToContacts}>
                             Contact
                         </Button>
-                        <Button>
-                            Resume
-                        </Button>
+                        <a href="/Resume_Saurav_Banna.pdf" target="_blank" rel="noreferrer">
+                            <Button disableRipple>
+                                Resume
+                            </Button>
+                        </a>
                     </div>
                 </div>
         </div>

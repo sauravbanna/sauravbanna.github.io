@@ -48,6 +48,7 @@
     box-shadow: none;
     border: none;
     border-radius: 0.7em;
+    cursor: pointer;
 }
 
 .imageOverlay {

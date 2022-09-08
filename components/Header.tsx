@@ -2,7 +2,7 @@ import Grid from "@mui/material/Grid"
 import Typography from "@mui/material/Typography"
 import Button from "@mui/material/Button"
 import styles from "../styles/Home.module.css"
-import {HEADER_COLOR} from '../utils/constants'
+import Image from 'next/image'
 
 
 
@@ -11,44 +11,34 @@ const Header = () => {
     const scrollToContacts = () => {
         const contacts = document.getElementById("contacts");
 
-        console.log(contacts);
-
-        contacts.scrollIntoView();
+        if (contacts) {
+            contacts.scrollIntoView();
+        }
     }
 
     return (
         <div
             className={styles.header}
         >
-          <Grid container spacing={6}>
-            <Grid item xs={3}
-                sx={
-                    {
-                        display: "flex",
-                        justifyContent: "flex-end",
-                        alignItems: "center",
-                        maxHeight: "100%"
-                    }
-                }
+            <div
+                id="header_image"
             >
-                <img
+                <Image
                     src="/PROFILE_PIC.png"
-
+                    layout="responsive"
+                    width="100%"
+                    height="100%"
+                    objectFit="contain"
+                    alt="Picture of me :)"
                 />
-            </Grid>
-            <Grid item xs={9}
-                sx={
-                    {
-                        display: "flex",
-                        justifyContent: "flex-start",
-                        alignItems: "center"
-                    }
-                }
-            >
+            </div>
+
                 <div
                     style={
                         {
-                            flexDirection: "column"
+                            flexDirection: "column",
+                            justifyContent: "center",
+                            display: "flex"
                         }
                     }
                 >
@@ -65,9 +55,6 @@ const Header = () => {
                         </Button>
                     </div>
                 </div>
-
-            </Grid>
-          </Grid>
         </div>
     );
 }

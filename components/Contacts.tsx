@@ -8,9 +8,9 @@ const Contacts = () => {
             className={styles.contacts}
             id="contacts"
         >
-            {CONTACTS.map((ele : IContactData) => {
+            {CONTACTS.map((ele : IContactData, index: number) => {
                 return (
-                    <Contact contact={ele}/>
+                    <Contact key={`Contact${index}`} contact={ele}/>
                 );
             })}
         </div>

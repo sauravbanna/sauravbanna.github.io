@@ -13,10 +13,10 @@ import { ThemeProvider } from '@mui/material/styles'
 const Home: NextPage = () => {
   return (
     <ThemeProvider theme={AppTheme}>
-        <Header id="header"/>
-        <About id="about"/>
-        <Projects id="projects"/>
-        <Achievements id="achievements"/>
+        <Header />
+        <About />
+        <Projects />
+        <Achievements />
         <Contacts />
         <Footer />
     </ThemeProvider>

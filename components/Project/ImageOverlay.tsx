@@ -1,11 +1,7 @@
 import Typography from "@mui/material/Typography"
 import styles from "../../styles/Home.module.css"
 
-interface IImageOverlayProps {
-    hover: boolean
-}
-
-const ImageOverlay = ({hover} : IImageOverlayProps) => {
+const ImageOverlay = () => {
     return (
         <div
             className={styles.imageOverlay}

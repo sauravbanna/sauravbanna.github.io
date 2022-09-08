@@ -1,4 +1,3 @@
-import {HEADER_COLOR} from '../utils/constants'
 import Typography from "@mui/material/Typography"
 import styles from "../styles/Home.module.css"
 

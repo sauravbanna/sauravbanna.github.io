@@ -7,9 +7,9 @@ const Achievements = () => {
     return (
         <SectionHeader title="Achievements">
             <Stack spacing={2}>
-                {ACHIEVEMENTS.map((ele : IAchievementData) => {
+                {ACHIEVEMENTS.map((ele : IAchievementData, index: number) => {
                     return (
-                        <Achievement achievementData={ele}/>
+                        <Achievement key={`Achievement${index}`} achievementData={ele}/>
                     );
                 })}
             </Stack>

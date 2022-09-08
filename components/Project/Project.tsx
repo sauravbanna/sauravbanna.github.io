@@ -5,18 +5,13 @@ import Stack from "@mui/material/Stack"
 import Typography from "@mui/material/Typography"
 import Paper from "@mui/material/Paper"
 import {useState, useEffect} from 'react'
+import Image from 'next/image'
 
 interface IProjectProps {
     project: IProjectData
 }
 
 const Project = ({project} : IProjectProps) => {
-    const [hover, setHover] = useState<boolean>(false);
-    const [hoverStyles, setHoverStyles] = useState<any>(false);
-
-    useEffect(() => {
-        setHoverStyles(false);
-    }, [hover])
 
     return (
         <Paper
@@ -27,8 +22,10 @@ const Project = ({project} : IProjectProps) => {
                     id="projectImage"
                 >
                     <ImageOverlay />
-                    <img
+                    <Image
                         src={project.image}
+                        layout="fill"
+                        alt={`Screenshot of ${project.title}`}
                     />
                 </div>
                 &nbsp;

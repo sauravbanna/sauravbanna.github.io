@@ -69,7 +69,7 @@ export const ACHIEVEMENTS : Array<IAchievementData> = [
         about: "",
         location: "Bronte College, Mississauga",
         date: {
-            month: "June",
+            month: "Jun",
             year: "2021"
         }
     },
@@ -78,7 +78,7 @@ export const ACHIEVEMENTS : Array<IAchievementData> = [
         about: "",
         location: "Bronte College, Mississauga",
         date: {
-            month: "June",
+            month: "Jun",
             year: "2021"
         }
     },
@@ -87,14 +87,14 @@ export const ACHIEVEMENTS : Array<IAchievementData> = [
         about: "",
         location: "Bronte College, Mississauga",
         date: {
-            month: "June",
+            month: "Jun",
             year: "2021"
         }
     },
 ]
 
 export interface IContactData {
-    icon: SvgIconComponent,
+    icon: any,
     link: string
 }
 

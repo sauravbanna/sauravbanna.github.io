@@ -10,6 +10,7 @@ const Contact = ({contact} : IContactProps) => {
         <a
             href={contact.link}
             target="_blank"
+            rel="noreferrer"
         >
             <div
                 className={styles.contact}

@@ -16,6 +16,7 @@ const Projects = () => {
                                     justifyContent: "center"
                                 }
                             }
+                            key={`Grid_${ele.title}`}
                         >
                             <Project project={ele}/>
                         </Grid>

@@ -7,8 +7,8 @@ const nextConfig = {
         unoptimized: true,
       },
     },
-  basePath: "/sauravbanna.github.io",
-  assetPrefix: "/sauravbanna.github.io"
+  basePath: "/nextjs-pages",
+  assetPrefix: "/nextjs-pages"
 }
 
 module.exports = nextConfig

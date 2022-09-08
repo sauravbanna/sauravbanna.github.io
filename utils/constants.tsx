@@ -57,7 +57,7 @@ export interface IAchievementData {
 export const ACHIEVEMENTS : Array<IAchievementData> = [
     {
         title: "Winner: Best Use of Data",
-        about: "fffffffff",
+        about: "Worked in a group of 4 to create EasyToMako, an app that scans your fridge, detects ingredients, and find the best recipe from a database of over 500,000 recipes",
         location: "WaffleHacks 2022",
         date: {
             month: "Jun",
@@ -66,7 +66,7 @@ export const ACHIEVEMENTS : Array<IAchievementData> = [
     },
     {
         title: "Governor General Award",
-        about: "",
+        about: "Achieved the highest final average for Grade 12 in my high school",
         location: "Bronte College, Mississauga",
         date: {
             month: "Jun",
@@ -75,7 +75,7 @@ export const ACHIEVEMENTS : Array<IAchievementData> = [
     },
     {
         title: "Ontario Scholar Award",
-        about: "",
+        about: "Achieved a Grade 12 average of more than 80%  ",
         location: "Bronte College, Mississauga",
         date: {
             month: "Jun",
@@ -84,7 +84,7 @@ export const ACHIEVEMENTS : Array<IAchievementData> = [
     },
     {
         title: "Euclid Mathematics Contest - High School Winner",
-        about: "",
+        about: "Achieved the highest score for the Euclid Mathematics Contest 2021 in my high school",
         location: "Bronte College, Mississauga",
         date: {
             month: "Jun",

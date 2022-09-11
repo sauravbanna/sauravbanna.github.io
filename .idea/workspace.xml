@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65b7cd47-c3b6-4a8b-bd57-96117c6a97fd" name="Changes" comment="Portfolio website" />
+    <list default="true" id="65b7cd47-c3b6-4a8b-bd57-96117c6a97fd" name="Changes" comment="Changed Profile pic">
+      <change afterPath="$PROJECT_DIR$/components/NavBar/NavBar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/NavBar/NavBarElement.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Contacts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/SectionHeader/SectionHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/SectionHeader/SectionHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/AppTheme.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/styles/AppTheme.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Home.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/constants.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/utils/constants.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +110,49 @@
       <option name="project" value="LOCAL" />
       <updated>1662609436540</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Portfolio website">
+      <created>1662609951020</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662609951020</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Portfolio website">
+      <created>1662610091426</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662610091426</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Portfolio website">
+      <created>1662610431164</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662610431164</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Portfolio website">
+      <created>1662619568097</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662619568097</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added project links and scroll to top button">
+      <created>1662620631989</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662620631989</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Changed Profile pic">
+      <created>1662630454443</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1662630454444</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,6 +168,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Portfolio website" />
-    <option name="LAST_COMMIT_MESSAGE" value="Portfolio website" />
+    <MESSAGE value="Added project links and scroll to top button" />
+    <MESSAGE value="Changed Profile pic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed Profile pic" />
   </component>
 </project>

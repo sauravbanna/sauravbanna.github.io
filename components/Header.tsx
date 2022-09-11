@@ -9,7 +9,7 @@ import Image from 'next/image'
 
 const Header = () => {
     const scrollToContacts = () => {
-        const contacts = document.getElementById("contacts");
+        const contacts = document.getElementById("Contacts");
 
         if (contacts) {
             contacts.scrollIntoView();

@@ -11,6 +11,7 @@ const SectionHeader = ({title, children} : ISectionHeaderProps) => {
     return (
         <div
             className={styles.section}
+            id={title}
         >
             <Typography variant="h4" sx={{paddingBottom: "0.5em"}}>
                 {title}

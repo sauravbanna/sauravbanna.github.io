@@ -6,7 +6,7 @@ const Contacts = () => {
     return (
         <div
             className={styles.contacts}
-            id="contacts"
+            id="Contacts"
         >
             {CONTACTS.map((ele : IContactData, index: number) => {
                 return (

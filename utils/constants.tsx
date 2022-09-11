@@ -116,3 +116,28 @@ export const CONTACTS : Array<IContactData> = [
         link: "https://instagram.com/bulbasaurav"
     }
 ]
+
+export interface INavBarData {
+    name: string | any,
+    scrollId: string,
+}
+
+export const NAVBAR : Array<INavBarData> = [
+    {
+        name: "About",
+        scrollId: "About"
+    },
+    {
+        name: "Projects",
+        scrollId: "Projects"
+    },
+    {
+        name: "Achievements",
+        scrollId: "Achievements"
+    },
+    {
+        name: "Contact",
+        scrollId: "Contacts"
+    }
+
+]

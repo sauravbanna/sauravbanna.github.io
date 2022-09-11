@@ -3,8 +3,12 @@
     --header-rgb: 148, 194, 212;
     --app-color: rgb(79, 110, 128);
     --app-rgb: 79, 110, 128;
+    --app-color-dark: rgb(59, 83, 97);
     --animation-time: 1.5s;
+    --nav-bar-height: 6vh;
+
 }
+
 
 html,
 body {

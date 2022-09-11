@@ -13,7 +13,7 @@ const AppTheme = createTheme({
             styleOverrides: {
                 root: {
                     color: "white",
-                    backgroundColor: "rgb(79, 110, 128)",
+                    backgroundColor: "var(--app-color)",
                     borderRadius: "0.5em",
                     marginLeft: "1em",
                     marginRight: "1em",

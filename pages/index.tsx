@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import NavBar from "../components/NavBar/NavBar"
 import Header from "../components/Header"
 import About from "../components/About"
 import Projects from "../components/Projects"
@@ -13,6 +14,7 @@ import { ThemeProvider } from '@mui/material/styles'
 const Home: NextPage = () => {
   return (
     <ThemeProvider theme={AppTheme}>
+        <NavBar />
         <Header />
         <About />
         <Projects />

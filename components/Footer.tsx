@@ -5,11 +5,7 @@ import styles from "../styles/Home.module.css"
 const Footer = () => {
 
     const scrollToTop = () => {
-        const header = document.getElementById('header');
-
-        if (header) {
-            header.scrollIntoView();
-        }
+        scroll(0, 0);
     }
 
     return (

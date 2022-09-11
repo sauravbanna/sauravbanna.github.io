@@ -43,13 +43,23 @@
 .project {
     min-width: 90%;
     width: 90%;
-    height: 35vh;
     box-sizing: border-box;
     padding: 1em;
     box-shadow: none;
     border: none;
     border-radius: 0.7em;
     cursor: pointer;
+}
+
+.project:hover {
+    box-shadow: 0.4em 0.4em var(--app-color);
+    outline: 0.2em solid var(--app-color);
+    box-sizing: border-box;
+}
+
+.project:hover .imageOverlay {
+    visibility: visible;
+    display: flex;
 }
 
 .imageOverlay {
@@ -65,16 +75,6 @@
     align-items: center;
     z-index: 9999;
     color: white;
-}
-
-.project:hover {
-    box-shadow: 0.2em 0.2em var(--app-color);
-    border: 0.2em solid var(--app-color);
-}
-
-.project:hover .imageOverlay {
-    visibility: visible;
-    display: flex;
 }
 
 .project div [id="projectImage"] {

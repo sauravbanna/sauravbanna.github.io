@@ -10,13 +10,15 @@ const Projects = () => {
                 {PROJECTS.map((ele : IProjectData) => {
                     return (
                         <Grid item xs={4}
+                            id={`ProjectGrid_${ele.title}`}
                             sx={
                                 {
                                     display: "flex",
-                                    justifyContent: "center"
+                                    justifyContent: "center",
+                                    overflow: "visible"
                                 }
                             }
-                            key={`Grid_${ele.title}`}
+                            key={`ProjectGrid_${ele.title}`}
                         >
                             <Project project={ele}/>
                         </Grid>

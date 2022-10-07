@@ -12,7 +12,7 @@ const Footer = () => {
         <div
             className={styles.footer}
         >
-            <Typography variant="subtitle1">
+            <Typography variant="subtitle1" align="center">
                 Made with TypeScript, Next.js, and Github Pages
             </Typography>
             <Button onClick={scrollToTop}>

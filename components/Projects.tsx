@@ -1,4 +1,5 @@
 import SectionHeader from "./SectionHeader/SectionHeader"
+import styles from "../styles/Home.module.css"
 import Grid from "@mui/material/Grid"
 import Project from "./Project/Project"
 import {PROJECTS, IProjectData} from "../utils/constants"
@@ -6,21 +7,13 @@ import {PROJECTS, IProjectData} from "../utils/constants"
 const Projects = () => {
     return (
         <SectionHeader title="Projects">
-            <Grid container spacing={6}>
+            <Grid container className={styles.projects}>
                 {PROJECTS.map((ele : IProjectData) => {
                     return (
-                        <Grid item xs={4}
-                            id={`ProjectGrid_${ele.title}`}
-                            sx={
-                                {
-                                    display: "flex",
-                                    justifyContent: "center",
-                                    overflow: "visible"
-                                }
-                            }
-                            key={`ProjectGrid_${ele.title}`}
-                        >
-                            <Project project={ele}/>
+                        <Grid item key={`ProjectGrid_${ele.title}`}>
+                            <Project
+                                project={ele}
+                            />
                         </Grid>
                     );
                 })}

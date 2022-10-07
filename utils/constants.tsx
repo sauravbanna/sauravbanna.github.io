@@ -6,7 +6,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 export const APP_FONT = "'Roboto Slab', serif"
 
-export const ABOUT_SECTION = "Hi! I'm Saurav. I'm a sophomore aiming to create unique technological solutions to real-world problems, in areas such as software development and game design. I'm focused, driven, and passionate about working in a team. I'm looking to leverage my computer science skills and business knowledge in order to break into the startup field."
+export const ABOUT_SECTION = "Hi! I'm Saurav. I'm a university sophomore aiming to create unique technological solutions to real-world problems, in areas such as software development and game design. I'm focused, driven, and passionate about working in a team. I'm looking to leverage my computer science skills and business knowledge in order to break into the startup field."
 
 export interface IProjectData {
     title: string,

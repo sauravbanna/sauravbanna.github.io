@@ -22,18 +22,7 @@ const Header = () => {
             className={styles.header}
             id="header"
         >
-            <div
-                id="header_image"
-            >
-                <Image
-                    src="/PROFILE_PIC.png"
-                    layout="responsive"
-                    width="100%"
-                    height="100%"
-                    objectFit="contain"
-                    alt="Picture of me :)"
-                />
-            </div>
+
 
                 <div
                     style={

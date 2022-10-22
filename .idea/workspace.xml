@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65b7cd47-c3b6-4a8b-bd57-96117c6a97fd" name="Changes" comment="Fixed issue where hover causes page content to shift">
+    <list default="true" id="65b7cd47-c3b6-4a8b-bd57-96117c6a97fd" name="Changes" comment="Removed Image, Added mobile support">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Projects.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/SectionHeader/SectionHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/SectionHeader/SectionHeader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_document.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_document.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/AppTheme.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/styles/AppTheme.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Home.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/constants.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/utils/constants.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +45,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "corretto-1.8",
-    "last_opened_file_path": "C:/Users/saura/CPSC_210/project_m6t3i",
+    "last_opened_file_path": "C:/Users/saura/Downloads/code (1)",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -180,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662883142742</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Removed Image, Added mobile support">
+      <created>1665126615411</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1665126615411</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,6 +198,7 @@
     <MESSAGE value="Changed Profile pic" />
     <MESSAGE value="Added Nav Bar" />
     <MESSAGE value="Fixed issue where hover causes page content to shift" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed issue where hover causes page content to shift" />
+    <MESSAGE value="Removed Image, Added mobile support" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed Image, Added mobile support" />
   </component>
 </project>

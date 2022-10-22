@@ -41,7 +41,7 @@ const Header = () => {
                         <Button disableRipple onClick={scrollToContacts}>
                             Contact
                         </Button>
-                        <a href="/Resume_Saurav_Banna.pdf" target="_blank" rel="noreferrer">
+                        <a href="/Saurav_Banna_Resume.pdf" target="_blank" rel="noreferrer">
                             <Button disableRipple>
                                 Resume
                             </Button>

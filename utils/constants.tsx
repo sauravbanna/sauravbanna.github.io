@@ -128,6 +128,10 @@ export const NAVBAR : Array<INavBarData> = [
         scrollId: "About"
     },
     {
+        name: "Design Team",
+        scrollId: "DesignTeam"
+    },
+    {
         name: "Projects",
         scrollId: "Projects"
     },

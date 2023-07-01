@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65b7cd47-c3b6-4a8b-bd57-96117c6a97fd" name="Changes" comment="Updated Resume">
-      <change afterPath="$PROJECT_DIR$/components/DesignTeam.tsx" afterDir="false" />
+    <list default="true" id="65b7cd47-c3b6-4a8b-bd57-96117c6a97fd" name="Changes" comment="added design team section">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/DesignTeam.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/DesignTeam.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/constants.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/utils/constants.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -223,6 +221,7 @@
     <MESSAGE value="Fixed issue where hover causes page content to shift" />
     <MESSAGE value="Removed Image, Added mobile support" />
     <MESSAGE value="Updated Resume" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Resume" />
+    <MESSAGE value="added design team section" />
+    <option name="LAST_COMMIT_MESSAGE" value="added design team section" />
   </component>
 </project>

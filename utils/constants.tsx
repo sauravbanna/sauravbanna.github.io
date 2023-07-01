@@ -8,6 +8,8 @@ export const APP_FONT = "'Roboto Slab', serif"
 
 export const ABOUT_SECTION = "Hi! I'm Saurav. I'm a university sophomore aiming to create unique technological solutions to real-world problems, in areas such as software development and game design. I'm focused, driven, and passionate about working in a team. I'm looking to leverage my computer science skills and business knowledge in order to break into the startup field."
 
+export const DESIGN_TEAM_SECTION = "I'm part of UBC Thunderbots, a UBC Engineering design team focused on making autonomous soccer playing robots to compete in Robocup 2023. I'm part of the Software subteam, which meets every Saturday to work on improving everything from the AI of the robots to the UI used to control them during testing."
+
 export interface IProjectData {
     title: string,
     about: string,

@@ -17,6 +17,15 @@ export interface IProjectData {
     link: string
 }
 
+export const DESIGN_TEAM_PROJECTS : Array<IProjectData> = [
+    {
+        title: "placeholder",
+        about: "placeholder",
+        image: "/MUSIC_MAKER.png",
+        link: "placeholder",
+    },
+]
+
 export const PROJECTS : Array<IProjectData> = [
     {
         title: "Music Maker",

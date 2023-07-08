@@ -3,7 +3,8 @@ import Typography from "@mui/material/Typography"
 import Grid from "@mui/material/Grid"
 import {DESIGN_TEAM_SECTION} from "../utils/constants"
 import styles from "../styles/Home.module.css"
-
+import Project from "./Project/Project"
+import {DESIGN_TEAM_PROJECTS, IProjectData} from "../utils/constants"
 
 const DesignTeam = () => {
     return (
@@ -11,7 +12,7 @@ const DesignTeam = () => {
             <Typography variant="h6">
                 {DESIGN_TEAM_SECTION}
                  <Grid container className={styles.projects}>
-                    {[].map((ele : IProjectData) => {
+                    {DESIGN_TEAM_PROJECTS.map((ele : IProjectData) => {
                         return (
                             <Grid item key={`ProjectGrid_${ele.title}`}>
                                 <Project

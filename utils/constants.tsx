@@ -24,6 +24,24 @@ export const DESIGN_TEAM_PROJECTS : Array<IProjectData> = [
         image: "/MUSIC_MAKER.png",
         link: "placeholder",
     },
+    {
+        title: "placeholder",
+        about: "placeholder",
+        image: "/MUSIC_MAKER.png",
+        link: "placeholder",
+    },
+    {
+        title: "placeholder",
+        about: "placeholder",
+        image: "/MUSIC_MAKER.png",
+        link: "placeholder",
+    },
+    {
+        title: "placeholder",
+        about: "placeholder",
+        image: "/MUSIC_MAKER.png",
+        link: "placeholder",
+    },
 ]
 
 export const PROJECTS : Array<IProjectData> = [

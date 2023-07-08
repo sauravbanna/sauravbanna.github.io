@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="65b7cd47-c3b6-4a8b-bd57-96117c6a97fd" name="Changes" comment="added design team section">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/constants.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/utils/constants.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/DesignTeam.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/DesignTeam.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

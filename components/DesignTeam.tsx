@@ -11,18 +11,19 @@ const DesignTeam = () => {
         <SectionHeader title="Design Team">
             <Typography variant="h6">
                 {DESIGN_TEAM_SECTION}
-                 <Grid container className={styles.projects}>
-                    {DESIGN_TEAM_PROJECTS.map((ele : IProjectData) => {
-                        return (
-                            <Grid item key={`ProjectGrid_${ele.title}`}>
-                                <Project
-                                    project={ele}
-                                />
-                            </Grid>
-                        );
-                    })}
-                </Grid>
             </Typography>
+            &nbsp;
+            <Grid container className={styles.projects}>
+                {DESIGN_TEAM_PROJECTS.map((ele : IProjectData) => {
+                    return (
+                        <Grid item key={`ProjectGrid_${ele.title}`}>
+                            <Project
+                                project={ele}
+                            />
+                        </Grid>
+                    );
+                })}
+            </Grid>
         </SectionHeader>
     );
 }

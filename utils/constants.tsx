@@ -26,7 +26,7 @@ export const DESIGN_TEAM_PROJECTS : Array<IProjectData> = [
     },
     {
         title: "Improved Robot UI",
-        about: "placeholder",
+        about: "Added new PyQt widgets to visualize robot state and behavior better",
         image: "/MUSIC_MAKER.png",
         link: "placeholder",
     },

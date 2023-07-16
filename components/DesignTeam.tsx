@@ -7,9 +7,9 @@ import Project from "./Project/Project"
 import {DESIGN_TEAM_PROJECTS, IProjectData} from "../utils/constants"
 
 const DesignTeam = () => {
+    // TODO: add hyperlink for ubc thunderbots
     return (
         <SectionHeader title="Design Team">
-            // TODO: add hyperlink for ubc thunderbots
             <Typography variant="h6">
                 {DESIGN_TEAM_SECTION}
             </Typography>

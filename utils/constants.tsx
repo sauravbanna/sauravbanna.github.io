@@ -19,13 +19,13 @@ export interface IProjectData {
 
 export const DESIGN_TEAM_PROJECTS : Array<IProjectData> = [
     {
-        title: "placeholder",
-        about: "placeholder",
+        title: "Sandbox Mode",
+        about: "Built a robot state editor using OpenGL and Python PyQt to test custom robot formations",
         image: "/MUSIC_MAKER.png",
         link: "placeholder",
     },
     {
-        title: "placeholder",
+        title: "Improved Robot UI",
         about: "placeholder",
         image: "/MUSIC_MAKER.png",
         link: "placeholder",

@@ -13,10 +13,17 @@ interface IProjectProps {
 
 const Project = ({project} : IProjectProps) => {
 
+    /*
+    *  Onclick handler to open a project's link
+    *  Opens in the same tab or a new tab depending on arg
+    *
+    *  newtab: if True, opens in a new tab, else opens in same tab
+    */
     const openProjectRepo = (newtab : boolean) => {
         const link = document.createElement('a');
         link.href = project.link;
 
+        // opens in new tab if specified
         if (newtab) {
             link.target = "_blank";
         }

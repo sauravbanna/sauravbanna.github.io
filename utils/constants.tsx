@@ -14,7 +14,8 @@ export interface IProjectData {
     title: string,
     about: string,
     image: string,
-    link: string
+    link: string,
+    newtab?: boolean
 }
 
 export const DESIGN_TEAM_PROJECTS : Array<IProjectData> = [
@@ -22,7 +23,8 @@ export const DESIGN_TEAM_PROJECTS : Array<IProjectData> = [
         title: "Sandbox Mode",
         about: "Built a robot state editor using OpenGL and Python PyQt to test custom robot formations",
         image: "/MUSIC_MAKER.png",
-        link: "placeholder",
+        link: "/placeholder",
+        newtab: false
     },
     {
         title: "Improved Robot UI",

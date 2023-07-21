@@ -13,10 +13,14 @@ interface IProjectProps {
 
 const Project = ({project} : IProjectProps) => {
 
-    const openProjectRepo = () => {
+    const openProjectRepo = (newtab : boolean) => {
         const link = document.createElement('a');
         link.href = project.link;
-        link.target = "_blank";
+
+        if (newtab) {
+            link.target = "_blank";
+        }
+
         link.rel = "noreferrer";
 
         link.click();
@@ -25,7 +29,7 @@ const Project = ({project} : IProjectProps) => {
     return (
         <Paper
             className={styles.project}
-            onClick={openProjectRepo}
+            onClick={(e) => openProjectRepo(project.newtab)}
         >
             <Stack
                 sx={

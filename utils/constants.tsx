@@ -18,19 +18,20 @@ export interface IProjectData {
     newtab?: boolean
 }
 
+// TODO : Make pages for these
 export const DESIGN_TEAM_PROJECTS : Array<IProjectData> = [
     {
         title: "Sandbox Mode",
         about: "Built a robot state editor using OpenGL and Python PyQt to test custom robot formations",
         image: "/MUSIC_MAKER.png",
-        link: "/placeholder",
+        link: "/thunderbots/sanbox_mode",
         newtab: false
     },
     {
         title: "Improved Robot UI",
         about: "Added new PyQt widgets to visualize robot state and behavior better",
         image: "/MUSIC_MAKER.png",
-        link: "placeholder",
+        link: "/thunderbots/improved_ui",
     },
     {
         title: "placeholder",

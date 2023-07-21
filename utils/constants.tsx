@@ -51,25 +51,29 @@ export const PROJECTS : Array<IProjectData> = [
         title: "Music Maker",
         about: "A website to create and share your music to the world",
         image: "/MUSIC_MAKER.png",
-        link: "https://github.com/sauravbanna/musicmaker"
+        link: "https://github.com/sauravbanna/musicmaker",
+        newtab: true
     },
     {
         title: "PostIt",
         about: "A Java forum where you can make and share posts to communities",
         image: "/POSTIT.png",
-        link: "https://github.com/sauravbanna/PostIt"
+        link: "https://github.com/sauravbanna/PostIt",
+        newtab: true
     },
     {
         title: "Space Defense",
         about: "An Android App inspired by Space Invaders",
         image: "/SPACE_DEFENSE.png",
-        link: "https://github.com/sauravbanna/SpaceDefense"
+        link: "https://github.com/sauravbanna/SpaceDefense",
+        newtab: true
     },
     {
         title: "Snake Game",
         about: "A Java adaptation of the classic game Snake",
         image: "/SNAKE_GAME.png",
-        link: "https://github.com/sauravbanna/snake-game"
+        link: "https://github.com/sauravbanna/snake-game",
+        newtab: true
     },
 ]
 

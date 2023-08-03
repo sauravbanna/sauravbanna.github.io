@@ -3,6 +3,10 @@ import Achievement from "./Achievement/Achievement"
 import Stack from "@mui/material/Stack"
 import {ACHIEVEMENTS, IAchievementData} from "../utils/constants"
 
+/**
+ * Displays the Achievement section using a section header
+ * and a vertical list of achievements
+*/
 const Achievements = () => {
     return (
         <SectionHeader title="Achievements">

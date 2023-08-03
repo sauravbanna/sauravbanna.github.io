@@ -7,7 +7,7 @@
     }
 }
 
-.section, .contacts {
+.section, .contacts, .pageTitle, .pageContent {
     animation: var(--animation-time) ease-out var(--animation-time) 1 fadeIn;
     animation-fill-mode: both;
     scroll-margin-top: calc(var(--nav-bar-height) + 1vh);

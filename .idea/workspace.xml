@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65b7cd47-c3b6-4a8b-bd57-96117c6a97fd" name="Changes" comment="added design team section">
-      <change afterPath="$PROJECT_DIR$/pages/projects.tsx" afterDir="false" />
+    <list default="true" id="65b7cd47-c3b6-4a8b-bd57-96117c6a97fd" name="Changes" comment="projects page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Home.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666410482542</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="projects page">
+      <created>1691026094531</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1691026094531</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,6 +229,7 @@
     <MESSAGE value="Removed Image, Added mobile support" />
     <MESSAGE value="Updated Resume" />
     <MESSAGE value="added design team section" />
-    <option name="LAST_COMMIT_MESSAGE" value="added design team section" />
+    <MESSAGE value="projects page" />
+    <option name="LAST_COMMIT_MESSAGE" value="projects page" />
   </component>
 </project>

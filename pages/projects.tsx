@@ -9,7 +9,7 @@ import { ThemeProvider } from '@mui/material/styles'
 import styles from "../styles/Home.module.css"
 
 
-const Home: NextPage = () => {
+const Projects: NextPage = () => {
   return (
     <ThemeProvider theme={AppTheme}>
         <NavBar />
@@ -44,4 +44,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default Projects

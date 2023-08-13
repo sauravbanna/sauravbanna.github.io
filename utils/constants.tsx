@@ -76,6 +76,12 @@ export const PROJECTS : Array<IProjectData> = [
         link: "https://github.com/sauravbanna/snake-game",
         newtab: true
     },
+    {
+        title: "This Website!",
+        about: "My current personal website",
+        link: "https://github.com/sauravbanna/sauravbanna.github.io",
+        newtab: true
+    }
 ]
 
 interface IDate {

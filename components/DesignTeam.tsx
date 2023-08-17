@@ -6,6 +6,10 @@ import styles from "../styles/Home.module.css"
 import Project from "./Project/Project"
 import {DESIGN_TEAM_PROJECTS, IProjectData} from "../utils/constants"
 
+/**
+ * Displays the design team section using a SectionHeader
+ * Displays a grid of projects worked on, with links to their GitHub PRs
+*/
 const DesignTeam = () => {
     // TODO: add hyperlink for ubc thunderbots
     return (

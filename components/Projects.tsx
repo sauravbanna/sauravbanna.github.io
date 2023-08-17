@@ -4,6 +4,9 @@ import Grid from "@mui/material/Grid"
 import Project from "./Project/Project"
 import {PROJECTS, IProjectData} from "../utils/constants"
 
+/**
+ * Displays a grid of projects from the PROJECTS constant using a SectionHeader
+*/
 const Projects = () => {
     return (
         <SectionHeader title="Projects">

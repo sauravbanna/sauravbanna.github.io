@@ -6,8 +6,15 @@ import Image from 'next/image'
 
 
 
-
+/**
+ * Displays the header of the page, with buttons to
+ *    - scroll down to the contacts section
+ *    - open resume in new tab
+*/
 const Header = () => {
+    /**
+     * Scrolls to the contacts section when clicked by getting the right element by ID
+    */
     const scrollToContacts = () => {
         const contacts = document.getElementById("Contacts");
 

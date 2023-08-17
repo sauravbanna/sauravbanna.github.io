@@ -4,20 +4,50 @@ import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
+/**
+ * The global font used by the website
+*/
 export const APP_FONT = "'Roboto Slab', serif"
 
+/**
+ * The contents of the about section
+*/
 export const ABOUT_SECTION = "Hi! I'm Saurav. I'm a university sophomore aiming to create unique technological solutions to real-world problems, in areas such as software development and game design. I'm focused, driven, and passionate about working in a team. I'm looking to leverage my computer science skills and business knowledge in order to break into the startup field."
 
+/**
+ * The text contents of the design team section
+*/
 export const DESIGN_TEAM_SECTION = "I'm part of UBC Thunderbots, a UBC Engineering design team focused on making autonomous soccer playing robots to compete in Robocup 2023. I'm part of the Software subteam, which meets every Saturday to work on improving everything from the AI of the robots to the UI used to control them during testing. Here's some projects I worked on over the last year at UBC Thunderbots: "
 
+/**
+ * Interface for each project's data
+*/
 export interface IProjectData {
+    /**
+     * title of the project
+    */
     title: string,
+    /**
+     * a description of the project
+    */
     about: string,
+    /**
+     * image preview of the project
+    */
     image: string,
+    /**
+     * link to the project
+    */
     link: string,
+    /**
+     * whether the link should open in a new tab or not
+    */
     newtab?: boolean
 }
 
+/**
+ * A list of projects worked on in the Design Team
+*/
 // TODO : Make pages for these
 export const DESIGN_TEAM_PROJECTS : Array<IProjectData> = [
     {
@@ -47,6 +77,9 @@ export const DESIGN_TEAM_PROJECTS : Array<IProjectData> = [
     },
 ]
 
+/**
+ * A list of personal projects worked on
+*/
 export const PROJECTS : Array<IProjectData> = [
     {
         title: "Music Maker",
@@ -84,18 +117,45 @@ export const PROJECTS : Array<IProjectData> = [
     }
 ]
 
+/**
+ * Interface for a date value
+*/
 interface IDate {
+    /**
+     * The possible months
+    */
     month: "Jan" | "Feb" | "Mar" | "Apr" | "May" | "Jun" | "July" | "Aug" | "Sept" | "Oct" | "Nov" | "Dec",
+    /**
+     * The year value
+    */
     year: string
 }
 
+/**
+ * Interface for each achievement's data
+*/
 export interface IAchievementData {
+    /**
+     * Title of the achievement
+    */
     title: string,
+    /**
+     * A short description of the achievement
+    */
     about: string,
+    /**
+     * Where the achievement was achieved
+    */
     location: string,
+    /**
+     * The date of the achievement
+    */
     date: IDate
 }
 
+/**
+ * A list of achievements and their info
+*/
 export const ACHIEVEMENTS : Array<IAchievementData> = [
     {
         title: "Winner: Best Use of Data",
@@ -135,11 +195,23 @@ export const ACHIEVEMENTS : Array<IAchievementData> = [
     },
 ]
 
+/**
+ * Interfae for each contact info
+*/
 export interface IContactData {
+    /**
+     * The icon for the contact method
+    */
     icon: any,
+    /**
+     * the link to the contact method
+    */
     link: string
 }
 
+/**
+ * A list of contact methods and their links
+*/
 export const CONTACTS : Array<IContactData> = [
     {
         icon: <EmailIcon fontSize="large" />,
@@ -159,11 +231,23 @@ export const CONTACTS : Array<IContactData> = [
     }
 ]
 
+/**
+ * Data of each navigation item
+*/
 export interface INavBarData {
+    /**
+     * Name of the entry
+    */
     name: string | any,
+    /**
+     * The ID of the element it should scroll to
+    */
     scrollId: string,
 }
 
+/**
+ * A list of nav bar entries with their scroll location IDs
+*/
 export const NAVBAR : Array<INavBarData> = [
     {
         name: "About",

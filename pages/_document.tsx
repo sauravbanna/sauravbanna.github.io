@@ -5,6 +5,7 @@ class MyDocument extends Document {
         return (
             <Html>
                 <Head>
+                    // to load fonts from google fonts
                     <link rel="preconnect" href="https://fonts.googleapis.com" />
                     <link rel="preconnect" href="https://fonts.gstatic.com" />
                     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet" />

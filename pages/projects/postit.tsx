@@ -5,7 +5,9 @@ import AppTheme from "../../styles/AppTheme"
 import { ThemeProvider } from '@mui/material/styles'
 import styles from "../../styles/Home.module.css"
 
-
+/**
+ * Page for the CPSC 210 course project
+*/
 const PostIt: NextPage = () => {
   return (
     <ThemeProvider theme={AppTheme}>

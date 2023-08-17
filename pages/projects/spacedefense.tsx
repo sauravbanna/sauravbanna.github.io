@@ -5,8 +5,10 @@ import AppTheme from "../../styles/AppTheme"
 import { ThemeProvider } from '@mui/material/styles'
 import styles from "../../styles/Home.module.css"
 
-
-const SnakeGame: NextPage = () => {
+/**
+ * Page for the Space Defense mobile game project
+*/
+const SpaceDefense: NextPage = () => {
   return (
     <ThemeProvider theme={AppTheme}>
         <NavBar />
@@ -29,4 +31,4 @@ const SnakeGame: NextPage = () => {
   )
 }
 
-export default SnakeGame
+export default SpaceDefense

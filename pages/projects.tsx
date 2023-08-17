@@ -8,7 +8,10 @@ import AppTheme from "../styles/AppTheme"
 import { ThemeProvider } from '@mui/material/styles'
 import styles from "../styles/Home.module.css"
 
-
+/**
+ * Page that displays all the projects individually
+ * With links to their respective pages
+*/
 const Projects: NextPage = () => {
   return (
     <ThemeProvider theme={AppTheme}>

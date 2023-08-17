@@ -11,7 +11,9 @@ import AppTheme from "../styles/AppTheme"
 import { ThemeProvider } from '@mui/material/styles'
 
 
-
+/**
+ * The main home page with all sections
+*/
 const Home: NextPage = () => {
   return (
     <ThemeProvider theme={AppTheme}>

@@ -5,7 +5,9 @@ import AppTheme from "../../styles/AppTheme"
 import { ThemeProvider } from '@mui/material/styles'
 import styles from "../../styles/Home.module.css"
 
-
+/**
+ * Page for the Java Snake Game project
+*/
 const SnakeGame: NextPage = () => {
   return (
     <ThemeProvider theme={AppTheme}>

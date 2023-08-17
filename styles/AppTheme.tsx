@@ -1,6 +1,10 @@
 import {APP_FONT} from "../utils/constants"
 import { createTheme } from '@mui/material/styles'
 
+/**
+ * The global theme for the whole app
+ * Injected through a provider
+*/
 const AppTheme = createTheme({
     typography: {
         fontFamily: APP_FONT,

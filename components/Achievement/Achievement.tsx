@@ -4,10 +4,19 @@ import Paper from "@mui/material/Paper"
 import Grid from "@mui/material/Grid"
 import Typography from "@mui/material/Typography"
 
+/**
+ * Props for the achievement component
+*/
 interface IAchievementProps {
+    /**
+     * Data for a single achievement
+    */
     achievementData: IAchievementData
 }
 
+/**
+ * Displays a single achievement with all of its info
+*/
 const Achievement = ({achievementData} : IAchievementProps) => {
     return (
         <Paper

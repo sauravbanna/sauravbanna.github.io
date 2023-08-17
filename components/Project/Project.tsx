@@ -7,10 +7,19 @@ import Paper from "@mui/material/Paper"
 import {useState, useEffect} from 'react'
 import Image from 'next/image'
 
+/**
+ Props for the project components
+*/
 interface IProjectProps {
+    /**
+     * the project data to be displayed
+    */
     project: IProjectData
 }
 
+/**
+ * Displays the data for a single project
+*/
 const Project = ({project} : IProjectProps) => {
 
     /*

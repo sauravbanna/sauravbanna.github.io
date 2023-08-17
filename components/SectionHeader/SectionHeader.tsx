@@ -3,12 +3,15 @@ import Typography from "@mui/material/Typography"
 
 /**
  * Interface for the section header props
- * Members:
- *    title of the section
- *    child widgets to be displayed in the section
 */
 interface ISectionHeaderProps {
+    /**
+     * the title of the section
+    */
     title: string,
+    /**
+     * the contents of the section
+    */
     children: any
 }
 

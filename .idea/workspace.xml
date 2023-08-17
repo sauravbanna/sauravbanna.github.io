@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="65b7cd47-c3b6-4a8b-bd57-96117c6a97fd" name="Changes" comment="docs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/constants.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/utils/constants.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Contacts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/NavBar/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/NavBar/NavBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Project/ImageOverlay.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Project/ImageOverlay.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Project/Project.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Project/Project.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/SectionHeader/SectionHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/SectionHeader/SectionHeader.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692236167705</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="docs">
+      <created>1692240481950</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1692240481950</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

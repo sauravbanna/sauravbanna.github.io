@@ -2,6 +2,9 @@ import styles from "../styles/Home.module.css"
 import {CONTACTS, IContactData} from "../utils/constants"
 import Contact from "./Contact/Contact"
 
+/**
+ * Displays a list of contact methods with icons and links
+*/
 const Contacts = () => {
     return (
         <div

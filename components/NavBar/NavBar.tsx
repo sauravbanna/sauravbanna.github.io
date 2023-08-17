@@ -4,6 +4,10 @@ import Stack from "@mui/material/Stack"
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import {INavBarData, NAVBAR} from "../../utils/constants"
 
+/**
+ * Displays the navigation bar at the top of the screen
+ * with clickable entries for each section
+*/
 const NavBar = () => {
     return (
         <Stack

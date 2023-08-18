@@ -3,18 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="65b7cd47-c3b6-4a8b-bd57-96117c6a97fd" name="Changes" comment="docs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Achievement/Achievement.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Achievement/Achievement.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Contact/Contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Contact/Contact.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/NavBar/NavBarElement.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/NavBar/NavBarElement.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/_document.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_document.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/projects/musicmaker.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects/musicmaker.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/postit.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects/postit.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/snakegame.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects/snakegame.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/spacedefense.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects/spacedefense.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/website.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects/website.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/AppTheme.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/styles/AppTheme.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692243143555</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="docs">
+      <created>1692246092900</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1692246092900</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

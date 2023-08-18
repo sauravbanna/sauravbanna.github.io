@@ -38,6 +38,9 @@ const MusicMaker: NextPage = () => {
             <Typography variant="h6">
                  You can also share your creation with the world! When you're ready, give your track a name and some cover art, and then sign up to upload it to your profile. You can check out other people's work, like, comment, and make playlists of your favorite songs.
             </Typography>
+            <Typography variant="h6">
+                You can also follow your favorite artists and see their work on your home page, so you stay up to date with their new creations.
+            </Typography>
             &nbsp;
             &nbsp;
              <Typography variant="h4">
@@ -56,6 +59,9 @@ const MusicMaker: NextPage = () => {
                 How to Use
             </Typography>
             &nbsp;
+            <Typography variant="h5" style={{fontWeight: 600}}>
+                Creating a song
+            </Typography>
             <Typography variant="h6">
                 Start by going to the link above and clicking the Create button.
             </Typography>
@@ -68,6 +74,51 @@ const MusicMaker: NextPage = () => {
             <Typography variant="h6">
                 To hear the whole song, hit the play button.
             </Typography>
+            &nbsp;
+            <Typography variant="h5" style={{fontWeight: 600}}>
+                Uploading a song
+            </Typography>
+             <Typography variant="h6">
+                First, make sure you've made an account and are logged into the app.
+            </Typography>
+            <Typography variant="h6">
+                Once you've made a song, hit the upload button to upload it to the world. Give your song a name, cover art, and a description.
+            </Typography>
+            <Typography variant="h6">
+                When you're ready, upload the song. It'll show up on your profile, and other people can see it there, or on their home feeds if they follow you.
+            </Typography>
+            &nbsp;
+            &nbsp;
+            <Typography variant="h4">
+                Tech Stack
+            </Typography>
+            &nbsp;
+            <Typography variant="h6">
+                The languages / frameworks / tools used in this project are:
+            </Typography>
+            <ul>
+                <li>
+                    <Typography variant="h6">
+                        ReactJS for the front-end
+                    </Typography>
+                </li>
+                <li>
+                    <Typography variant="h6">
+                        JavaScript and Firebase for the back-end
+                    </Typography>
+                </li>
+                <li>
+                    <Typography variant="h6">
+                        Firebase for the database
+                    </Typography>
+                </li>
+                <li>
+                    <Typography variant="h6">
+                        Redux for app state
+                    </Typography>
+                </li>
+            </ul>
+
         </div>
     </ThemeProvider>
   )

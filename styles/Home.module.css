@@ -195,6 +195,8 @@
         padding-right: 4vw;
         padding-bottom: 4em;
         background-color: var(--header-color);
+        display: flex;
+        justify-content: space-between;
     }
     .pageContent {
         margin-top: 4em;

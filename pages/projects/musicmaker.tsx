@@ -4,11 +4,14 @@ import Typography from "@mui/material/Typography"
 import AppTheme from "../../styles/AppTheme"
 import { ThemeProvider } from '@mui/material/styles'
 import styles from "../../styles/Home.module.css"
+import Button from "@mui/material/Button"
 
 /**
  * Page for the Music Maker React project
 */
 const MusicMaker: NextPage = () => {
+
+
   return (
     <ThemeProvider theme={AppTheme}>
         <NavBar />
@@ -19,6 +22,11 @@ const MusicMaker: NextPage = () => {
             <Typography variant="h2">
                 Music Maker
             </Typography>
+            <a href="https://github.com/sauravbanna/musicmaker" target="_blank" rel="noreferrer">
+                <Button disableRipple>
+                    Github Link
+                </Button>
+            </a>
         </div>
         <div
             className={styles.pageContent}
@@ -52,6 +60,9 @@ const MusicMaker: NextPage = () => {
             </Typography>
             <Typography variant="h6">
                 I also wanted to make something fun and interactive that people can easily use themselves. I had previously made a game in Java in high-school, and watching people play and enjoy my work was a great feeling.
+            </Typography>
+            <Typography variant="h6">
+                I like the challenges and enjoyment that comes from making something that not only has to be functional, but also has to look good and be intuitive to use.
             </Typography>
             &nbsp;
             &nbsp;
@@ -118,7 +129,20 @@ const MusicMaker: NextPage = () => {
                     </Typography>
                 </li>
             </ul>
-
+            &nbsp;
+            <Typography variant="h4">
+                What I learnt
+            </Typography>
+            &nbsp;
+            <Typography variant="h6">
+                Through this project, I got a lot more experience in web development. I learnt a lot about React components, using hooks, managing app state, and how to properly communicate with a backend database.
+            </Typography>
+            <Typography variant="h6">
+                I learnt how to make reusable components to reduce repetition and use interfaces to make prop types clear
+            </Typography>
+            <Typography variant="h6">
+                I also learnt how to use colors, error messages, font sizes, and other design choices to make a clear and intuitive user interface that anyone can pick up and use quickly.
+            </Typography>
         </div>
     </ThemeProvider>
   )

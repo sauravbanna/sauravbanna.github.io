@@ -37,6 +37,15 @@ const PostIt: NextPage = () => {
                 PostIt is a Java Swing forum app where you can make posts, join communities and more!
             </Typography>
             <Typography variant="h6">
+                It's similar to other forums online, where you have a community for each topic, where users interested in that topic gather and post content.
+            </Typography>
+            <Typography variant="h6">
+                You can visit specific communities, curate your home feed by joining communities, or visit a specific user and view their posts.
+            </Typography>
+            <Typography variant="h6">
+                You can make your own posts in a community, or show your opinion by upvoting / downvoting any posts you see, or commenting on them
+            </Typography>
+            <Typography variant="h6">
                 This was made as part of my CPSC 210 coursework at UBC.
             </Typography>
             &nbsp;

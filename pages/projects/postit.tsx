@@ -81,6 +81,22 @@ const PostIt: NextPage = () => {
             <Typography variant="h6">
                 This project is entirely Java-based, and used Java Swing for the GUI. However, in the future, I would like to make a React based version using my front-end experience, as I find front-end development fun as well.
             </Typography>
+            &nbsp;
+            <Typography variant="h4">
+                What I learnt
+            </Typography>
+            <Typography variant="h6">
+                Through this project, I got a great in-depth lesson in Java Swing GUI development. Although I had some experience with the library through a high-school project, I used a bunch of new components during this project that I hadn't used before.
+            </Typography>
+            <Typography variant="h6">
+                I also got experience with planning out a whole software project. I started off by thinking of user stories, then worked on the project incrementally, starting with the core functionality and expanding into extra features and nice-to-haves.
+            </Typography>
+            <Typography variant="h6">
+                The project went through a few stages, starting off as a console-based text program, then moving to a console app with persistent storage, and then a full GUI based app. So I got to see the project evolve through these stages.
+            </Typography>
+            <Typography variant="h6">
+                Since it was a course project, I also had to complete it within deadlines. So I has to also learn to prioritise certain user stories or features over other, and determine which ones were necessary to achieve the core functionality I wanted.
+            </Typography>
         </div>
     </ThemeProvider>
   )

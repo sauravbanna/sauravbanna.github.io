@@ -19,12 +19,48 @@ const SnakeGame: NextPage = () => {
             <Typography variant="h2">
                 Java Snake Game
             </Typography>
+            <a href="https://github.com/sauravbanna/snake-game" target="_blank" rel="noreferrer">
+                <Button disableRipple>
+                    Github Link
+                </Button>
+            </a>
         </div>
         <div
             className={styles.pageContent}
         >
+            <Typography variant="h4">
+                About
+            </Typography>
+            &nbsp;
             <Typography variant="h6">
-                placeholder...
+                ...
+            </Typography>
+            &nbsp;
+            &nbsp;
+             <Typography variant="h4">
+                Motivation
+            </Typography>
+            &nbsp;
+            <Typography variant="h6">
+                ...
+            </Typography>
+            &nbsp;
+            &nbsp;
+            <Typography variant="h4">
+                How to Use
+            </Typography>
+            &nbsp;
+            <Typography variant="h6">
+                ...
+            </Typography>
+            &nbsp;
+            &nbsp;
+            <Typography variant="h4">
+                Tech Stack
+            </Typography>
+            &nbsp;
+            <Typography variant="h6">
+                ...
             </Typography>
         </div>
     </ThemeProvider>

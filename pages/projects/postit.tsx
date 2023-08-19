@@ -51,6 +51,9 @@ const PostIt: NextPage = () => {
             <Typography variant="h6">
                 I had a bit of experience with the Java Swing UI, but there was also a lot of new stuff, so I wanted to create something with enough depth to get a good amount of experience with the library.
             </Typography>
+            <Typography variant="h6">
+                While planning the project, I realized that there's a lot of scope for an app like this. For example, different post types, different feeds (home feed, community feed, user profile feed), etc. So although this seemed daunting, it also seemed like an interesting problem to solve.
+            </Typography>
             &nbsp;
             &nbsp;
             <Typography variant="h4">
@@ -58,7 +61,16 @@ const PostIt: NextPage = () => {
             </Typography>
             &nbsp;
             <Typography variant="h6">
-                ...
+                The app can be run using the main function. This is best done by opening the repo in any IDE (IntelliJ, NetBeans, etc.) and running it through the IDE controls.
+            </Typography>
+            <Typography variant="h6">
+                Once running, you can choose to either create a new forum or continue with an existing forum (if you have already used the app before).
+            </Typography>
+            <Typography variant="h6">
+                You can register a new account and login to it to access the forum app. Now, you can create a post, create a community, explore any existing communities, subscribe to communities to see their posts on your feed, upvote / downvote posts, comment under posts and view other people's comments.
+            </Typography>
+            <Typography variant="h6">
+                The app function similar to other social media apps and forums, except it is local to your machine. It currently supports text and image posts
             </Typography>
             &nbsp;
             &nbsp;
@@ -67,15 +79,8 @@ const PostIt: NextPage = () => {
             </Typography>
             &nbsp;
             <Typography variant="h6">
-                ...
+                This project is entirely Java-based, and used Java Swing for the GUI. However, in the future, I would like to make a React based version using my front-end experience, as I find front-end development fun as well.
             </Typography>
-            <ul>
-                <li>
-                    <Typography variant="h6">
-                        ...
-                    </Typography>
-                </li>
-            </ul>
         </div>
     </ThemeProvider>
   )

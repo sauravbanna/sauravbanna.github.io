@@ -34,7 +34,10 @@ const PostIt: NextPage = () => {
             </Typography>
             &nbsp;
             <Typography variant="h6">
-                ...
+                PostIt is a Java Swing forum app where you can make posts, join communities and more!
+            </Typography>
+            <Typography variant="h6">
+                This was made as part of my CPSC 210 coursework at UBC.
             </Typography>
             &nbsp;
             &nbsp;
@@ -43,7 +46,10 @@ const PostIt: NextPage = () => {
             </Typography>
             &nbsp;
             <Typography variant="h6">
-                ...
+                For this course, we had to make a Java Swing GUI app, and we were free to choose any app idea for our project. I've used forums like Reddit in the past, so I thought it would be interesting to create something like that in Java.
+            </Typography>
+            <Typography variant="h6">
+                I had a bit of experience with the Java Swing UI, but there was also a lot of new stuff, so I wanted to create something with enough depth to get a good amount of experience with the library.
             </Typography>
             &nbsp;
             &nbsp;

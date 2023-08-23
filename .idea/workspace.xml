@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65b7cd47-c3b6-4a8b-bd57-96117c6a97fd" name="Changes" comment="postit and snakegame page">
+    <list default="true" id="65b7cd47-c3b6-4a8b-bd57-96117c6a97fd" name="Changes" comment="space defense page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/projects/snakegame.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects/snakegame.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/projects/spacedefense.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects/spacedefense.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -310,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692417818963</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="space defense page">
+      <created>1692758066630</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1692758066630</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -340,6 +348,7 @@
     <MESSAGE value="music maker page" />
     <MESSAGE value="postit page" />
     <MESSAGE value="postit and snakegame page" />
-    <option name="LAST_COMMIT_MESSAGE" value="postit and snakegame page" />
+    <MESSAGE value="space defense page" />
+    <option name="LAST_COMMIT_MESSAGE" value="space defense page" />
   </component>
 </project>

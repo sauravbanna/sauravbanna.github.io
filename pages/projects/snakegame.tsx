@@ -4,6 +4,7 @@ import Typography from "@mui/material/Typography"
 import AppTheme from "../../styles/AppTheme"
 import { ThemeProvider } from '@mui/material/styles'
 import styles from "../../styles/Home.module.css"
+import Button from "@mui/material/Button"
 
 /**
  * Page for the Java Snake Game project

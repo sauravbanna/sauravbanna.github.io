@@ -4,6 +4,7 @@ import Typography from "@mui/material/Typography"
 import AppTheme from "../../styles/AppTheme"
 import { ThemeProvider } from '@mui/material/styles'
 import styles from "../../styles/Home.module.css"
+import Button from "@mui/material/Button"
 
 /**
  * Page for the Space Defense mobile game project
@@ -63,7 +64,22 @@ const SpaceDefense: NextPage = () => {
             </Typography>
             &nbsp;
             <Typography variant="h6">
-                ...
+                Follow the link above to go to the Github repo for this project, which contains the Google Play Store link for this game.
+            </Typography>
+            <Typography variant="h6">
+                Download the game and run it. Click the play button to play the game.
+            </Typography>
+            <Typography variant="h6">
+                Move the spaceship at the bottom by dragging it left and right. Fire the gun by tapping once
+            </Typography>
+            <Typography variant="h6">
+                There's no limit on how many bullets the spaceship can fire, so keep tapping to get rid of the aliens.
+            </Typography>
+            <Typography variant="h6">
+                The game ends if an alien collides with the spaceship, or if an alien makes it past the spaceship and breaks through the defense.
+            </Typography>
+            <Typography variant="h6">
+                The more aliens you kill, the more points you get. The game gets faster as it goes on, so make sure to stay alert and keep firing!
             </Typography>
             &nbsp;
             &nbsp;
@@ -72,7 +88,7 @@ const SpaceDefense: NextPage = () => {
             </Typography>
             &nbsp;
             <Typography variant="h6">
-                ...
+                This game was developed using Java, using the Android Studio SDK. I used the in-built GUI tools to develop some of the GUI placements.
             </Typography>
             &nbsp;
             <Typography variant="h4">

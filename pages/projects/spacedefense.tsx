@@ -94,8 +94,30 @@ const SpaceDefense: NextPage = () => {
             <Typography variant="h4">
                 What I learnt
             </Typography>
+            &nbsp;
             <Typography variant="h6">
-                ...
+                I learnt a lot during this project, as it was my first time working with any sort of mobile development
+            </Typography>
+            <Typography variant="h6">
+                Although I had experience with Java from my previous coursework, developing for Android was a whole different beast. I learnt a lot about ImagieViews, Activities, Gestures, etc. through this process.
+            </Typography>
+            <Typography variant="h6">
+                Making the game responsive was a big challenge. I had no experience with development for a touch-screen device, or a device where I had to worry about it being turned off, the user changing windows, etc.
+            </Typography>
+            <Typography variant="h6">
+                Even simple things like hiding the status bar to make the game full-screen, or pausing the game automatically when the user when to their home page, seemed daunting at first.
+            </Typography>
+            <Typography variant="h6">
+                However, after doing a lot of research into the native APIs available and the unique terminologies used, and the lifecycle an Android app goes through from the time it is launched to the time it is closed, I developed a much better understanding of all the cases I had to account for to keep the game experience smooth.
+            </Typography>
+            <Typography variant="h6">
+                I also got experience with making pixel art for the game. Making clear, unique, and recognizable characters was a fun process of trial and error until I nailed the right design down.
+            </Typography>
+            <Typography variant="h6">
+                Keeping the theme and colors consistent was also important, as well as making sure the game and its assets were playable / visible on all screen sizes.
+            </Typography>
+            <Typography variant="h6">
+                Overall, it was a great first step into the wide world of Android and mobile development.
             </Typography>
         </div>
     </ThemeProvider>

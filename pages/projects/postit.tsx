@@ -94,6 +94,7 @@ const PostIt: NextPage = () => {
             <Typography variant="h4">
                 What I learnt
             </Typography>
+            &nbsp;
             <Typography variant="h6">
                 Through this project, I got a great in-depth lesson in Java Swing GUI development. Although I had some experience with the library through a high-school project, I used a bunch of new components during this project that I hadn't used before.
             </Typography>

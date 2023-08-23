@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65b7cd47-c3b6-4a8b-bd57-96117c6a97fd" name="Changes" comment="postit page">
+    <list default="true" id="65b7cd47-c3b6-4a8b-bd57-96117c6a97fd" name="Changes" comment="postit and snakegame page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/postit.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects/postit.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/snakegame.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects/snakegame.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/projects/spacedefense.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects/spacedefense.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -304,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692414296764</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="postit and snakegame page">
+      <created>1692417818963</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1692417818963</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -333,6 +339,7 @@
     <MESSAGE value="docs" />
     <MESSAGE value="music maker page" />
     <MESSAGE value="postit page" />
-    <option name="LAST_COMMIT_MESSAGE" value="postit page" />
+    <MESSAGE value="postit and snakegame page" />
+    <option name="LAST_COMMIT_MESSAGE" value="postit and snakegame page" />
   </component>
 </project>

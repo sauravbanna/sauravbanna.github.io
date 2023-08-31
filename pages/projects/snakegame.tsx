@@ -87,6 +87,27 @@ const SnakeGame: NextPage = () => {
             <Typography variant="h6">
                 This entire project was made using the Java Swing GUI library. I used the NetBeans GUI editor to make some of the GUI, but most of it had to be coded manually, especially the pixels of the game screen.
             </Typography>
+            <Typography variant="h4">
+                What I Learnt
+            </Typography>
+            <Typography variant="h6">
+                This project was a lot of work, but also a lot of fun.
+            </Typography>
+            <Typography variant="h6">
+                It was my first time working on a software project of this size, and my first real project using Java. So at first, it seemed super daunting and not something I was used to at all.
+            </Typography>
+            <Typography variant="h6">
+                However, I did a lot of research into the Java Swing library and Googled my way out of any roadblocks I ran into, and I finished it within the project deadline and got a 97 for the course.
+            </Typography>
+            <Typography variant="h6">
+                The main things I learnt during this project was not Java, or the Swing library, or anything else purely technical.
+            </Typography>
+            <Typography variant="h6">
+                Instead, it was things like properly commenting my code, figuring out how to solve my problems independently, and reading documentation efficiently to figure out how to use a certain feature.
+            </Typography>
+            <Typography variant="h6">
+                I learnt to independently learn a completely new library well enouggh to use it in a project, which is a skill that has definitely helped me a lot in my career since.
+            <Typography>
         </div>
     </ThemeProvider>
   )
